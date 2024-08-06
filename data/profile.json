@@ -3,27 +3,36 @@
     "photo": "https://avatars.githubusercontent.com/u/154850125?s=400&u=557209b88dab6d6e8577d057139375546341f277&v=4",
     "job": "Front-End Developer",
     "location":"Fortaleza-ce",
-    "phone": "(85) 98523-9831",
+    "phone": "(85) 98235-9831",
     "email": "paulovictor150706@gmail.com",
     "skills": {
       "hardSkills": [
         {
-          "nome": "Android",
-          "logo": "TODO"
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/RenanJPaula/js-developer-portfolio/main/data/imgs/js.png"
         },
         {
-          "nome": "Java",
-          "logo": "TODO"
+          "name": "React",
+          "logo": "https://raw.githubusercontent.com/RenanJPaula/js-developer-portfolio/main/data/imgs/react.png"
         },
         {
-          "nome": "Kotlin",
-          "logo": "TODO"
+          "name": "Github",
+          "logo": "https://raw.githubusercontent.com/RenanJPaula/js-developer-portfolio/main/data/imgs/github.png"
+        },
+        {
+          "name": "Css",
+          "logo": "https://raw.githubusercontent.com/RenanJPaula/js-developer-portfolio/main/data/imgs/css.png"
+        },
+        {
+          "name": "Html",
+          "logo": "https://raw.githubusercontent.com/RenanJPaula/js-developer-portfolio/main/data/imgs/html.png"
         }
       ],
       "softSkills": [
-        "Comunicação",
-        "Empatia",
-        "Poder de Sedução Imcomparável"
+        "Responsabilidade com prazos",
+        "Organização",
+        "Facilidade com trabalho em equipe",
+        "Flexibilidade"
       ]
     },
     "idiomas": [
