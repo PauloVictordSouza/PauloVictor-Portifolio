@@ -35,18 +35,22 @@
         "Flexibilidade"
       ]
     },
-    "idiomas": [
+    "language": [
       {
-        "nome": "Português",
-        "nivel": "Nativo"
+        "name": "Português",
+        "level": "Nativo"
       },
       {
-        "nome": "Inglês",
-        "nivel": "Intermediário"
+        "name": "Inglês",
+        "level": "Avançado"
       },
       {
-        "nome": "Espanhol",
-        "nivel": "Básico"
+        "name": "Espanhol",
+        "level": "Intermediario"
+      },
+      {
+        "name": "Alemão",
+        "level": "Básico"
       }
     ],
     "educacao": [
@@ -109,16 +113,21 @@
         }
       }
     ],
-    "portfolio": [
+    "projetos": [
       {
-        "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-        "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-        "certificado": "https://www.dio.me/certificate/34F1FBA1"
+        "name": "Pokedex Consumindo PokeAPI",
+        "url": "https://github.com/PauloVictordeSouza/Pokedex-project",
+        "git": true
       },
       {
-        "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-        "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-        "certificado": "https://www.dio.me/certificate/9A5090FC"
+        "name": "Site Meteorologico",
+        "url": "https://github.com/PauloVictordeSouza/Site-Meteorologico",
+        "git": true
+      },
+      {
+        "name": "Youtube Clone",
+        "url": "https://github.com/PauloVictordeSouza/Projeto-Jovem-Programador",
+        "git": true
       }
     ],
     "experiencias": [
