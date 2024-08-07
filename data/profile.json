@@ -130,15 +130,16 @@
         "github": true
       }
     ],
-    "experiencias": [
+    "professionalExperience": [
       {
-        "nome": "Education Tech Lead ",
-        "descricao": "",
-        "instituicao": "Digital Innovation One (DIO)",
-        "periodo": {
-          "inicio": "03/2021",
-          "fim": "Atualmente"
-        }
-      }
+        "name": "FrontEnd Developer / Jovens Devs ",
+        "period": "April 2024 - July 2024",
+        "description": " Fui um desenvolvedor FrontEnd de uma equipe de estudantes de desenvolvimento web, onde desenvolvi e mantive interfaces web utilizando HTML5, CSS3, JavaScript, Bootstrap,criei experiências de usuário intuitivas e eficientes, melhorando a usabilidade e a performance das aplicações."
+        },
+        {
+          "name": "FrontEnd Developer / Projetos Pessoais ",
+          "period": "Jun 2023 - July 2024",
+          "description": "Realizei diversos projetos pessoais afim de estudos, como a criação de uma Pokedex consumindo a PokeAPI, um site de previsão meteorologica, uma calculadora de indice de massa corporal e entre outros."
+          }
     ]
   }

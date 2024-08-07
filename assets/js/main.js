@@ -52,13 +52,27 @@
         const projetos = document.getElementById('profile.projects')
         projetos.innerHTML = profileData.projetos.map(projeto =>{
             return `<li>
-                        <h3 ${projeto.github ? 'class="github"': ""}>
+                        <h3 ${projeto.github ? 'class="title github"': ""}>
                                 ${projeto.name}
                         </h3>
                         <a href="${projeto.url}" target="_blank">${projeto.url}</a>
                     </li>`
         }).join("")
     } 
+
+    function updateProfessionalExperience(profileData){
+        const professionalExperience = document.getElementById("profile.professionalExperience")
+
+       professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+            return `
+                <li>
+                <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}</p>
+                <p>${experience.description}<p>
+            `
+        }).join("")
+
+    }
 
 
     (async () => {
@@ -69,5 +83,6 @@
         updatehardSkillsInfo(profileData)
         updateLanguages(profileData)
         updateProjects(profileData)
+        updateProfessionalExperience(profileData)
         
     })()

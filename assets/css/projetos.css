@@ -16,7 +16,7 @@
     margin: 1rem 0;
 }
 
-.projetos li h3{
+.projetos li .title{
     
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@
 
 
 
-.projetos li h3.github::before{
+.projetos li .title.github::before{
     content: '';
     display: inline-block;
     width: 1rem;
@@ -43,7 +43,7 @@
 
 
 @media only screen and (max-width: 600px) {
-    .projetos li h3.github::before{
+    .projetos li .title.github::before{
         content: '';
         display: inline-block;
         width: 1.5rem;
@@ -52,5 +52,12 @@
         background-size: contain;
         background-image: url('/assets/Icons/github.svg');
         margin-right: .5rem;
+    }
+
+    .projetos li a{
+        display: flex;
+        overflow: hidden; 
+        word-break: break-all;
+        text-decoration: underline;
     }
 }
