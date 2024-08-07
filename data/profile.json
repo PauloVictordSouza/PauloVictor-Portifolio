@@ -117,17 +117,17 @@
       {
         "name": "Pokedex Consumindo PokeAPI",
         "url": "https://github.com/PauloVictordeSouza/Pokedex-project",
-        "git": true
+        "github": true
       },
       {
         "name": "Site Meteorologico",
         "url": "https://github.com/PauloVictordeSouza/Site-Meteorologico",
-        "git": true
+        "github": true
       },
       {
         "name": "Youtube Clone",
         "url": "https://github.com/PauloVictordeSouza/Projeto-Jovem-Programador",
-        "git": true
+        "github": true
       }
     ],
     "experiencias": [

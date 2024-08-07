@@ -16,7 +16,7 @@
     margin: 1rem 0;
 }
 
-.projetos li .title{
+.projetos li h3{
     
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@
 
 
 
-.projetos li .title.github::before{
+.projetos li h3.github::before{
     content: '';
     display: inline-block;
     width: 1rem;
@@ -43,7 +43,7 @@
 
 
 @media only screen and (max-width: 600px) {
-    .projetos li .title.github::before{
+    .projetos li h3.github::before{
         content: '';
         display: inline-block;
         width: 1.5rem;
