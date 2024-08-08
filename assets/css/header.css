@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .header{
     display: flex;
     flex-direction: column;
@@ -58,91 +58,17 @@
 }
 
 .information .people:before{
-    background-image: url('assets/Icons/Pessoa.svg');
+    background-image: url('../Icons/Pessoa.svg');
 }
 
 .information .localizacao:before{
-    background-image: url('assets/Icons/Localizacao.svg');
+    background-image: url('../Icons/Localizacao.svg');
 }
 
 .information .whatsapp::before{
-    background-image: url('assets/Icons/Whatsapp.svg');
+    background-image: url('../Icons/Whatsapp.svg');
 }
 
 .information .email::before{
-    background-image: url('assets/Icons/Email.svg');
-=======
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
-.header::after{
-    content: '';
-    display: inline-block;
-    top: 1rem;
-    right: 1rem;
-    width: 2rem;
-    height: 2rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-}
-.photo{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid white;
-}
-
-.header .title {
-    font-family: 'Neue Machina';
-    text-align: center;
-}
-
-.information{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-
-}
-
-.information p{
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 1.125rem;
-}
-
-
-.information p::before{
-    display: inline-block;
-   content: '';
-   width: 1rem;
-   height: 1rem;
-   background-repeat: no-repeat;
-   background-size: contain;
-   margin-right: .5rem;
-}
-
-.information .people:before{
-    background-image: url('/assets/Icons/Pessoa.svg');
-}
-
-.information .localizacao:before{
-    background-image: url('/assets/Icons/Localizacao.svg');
-}
-
-.information .whatsapp::before{
-    background-image: url('/assets/Icons/Whatsapp.svg');
-}
-
-.information .email::before{
-    background-image: url('/assets/Icons/Email.svg');
->>>>>>> cb3b63b238a22b004c87cbadb63e415d580bf3d5
+    background-image: url('../Icons/Email.svg');
 }

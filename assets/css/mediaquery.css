@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @media only screen and (min-width:768px) {
    .header .photo{
         grid-area: photo;
@@ -32,41 +32,4 @@
         width: 70vw;
     }
 
-   
-=======
-@media only screen and (min-width:768px) {
-   .header .photo{
-        grid-area: photo;
-        margin: 0 auto;
-    }
-
-    .header .title{
-        grid-area: title;
-        text-align: start;
-        max-width: 200px;
-    }
-
-    .header .information{
-        grid-area: information;
-    } 
-    
-    .header{
-        display: grid;
-        grid-template-areas:
-        'photo title' 
-        'photo information'
-        ;
-    }
-
-    .main{
-        max-width: 1024px;
-        margin: 2rem auto;
-    }
-
-    .main:after , .main:before{
-        width: 70vw;
-    }
-
-   
->>>>>>> cb3b63b238a22b004c87cbadb63e415d580bf3d5
 }
