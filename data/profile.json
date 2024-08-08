@@ -1,9 +1,9 @@
 {
     "name": "Paulo Victor de Souza",
-    "photo": "https://avatars.githubusercontent.com/u/154850125?s=400&u=557209b88dab6d6e8577d057139375546341f277&v=4",
+    "photo": "https://avatars.githubusercontent.com/u/163136883?s=400&u=f69ff852b64707d9d5b3bfaaa958004cae2c6089&v=4",
     "job": "Front-End Developer",
     "location":"Fortaleza-ce",
-    "phone": "(85) 98235-9831",
+    "phone": "(85) 98523-9831",
     "email": "paulovictor150706@gmail.com",
     "skills": {
       "hardSkills": [
@@ -53,80 +53,20 @@
         "level": "Básico"
       }
     ],
-    "educacao": [
-      {
-        "nome": "dio.me",
-        "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
-        "instituicao": "Digital Innovation One (DIO)",
-        "periodo": {
-          "inicio": "2019",
-          "fim": "Atualmente"
-        },
-        "certificados": [
-          {
-            "nome": "Formação: Blockchain Specialist (25h)",
-            "link": "https://www.dio.me/certificate/28601B02"
-          },
-          {
-            "nome": "Curso: Desenvolvimento Mobile Nativo Para Android",
-            "link": "https://www.dio.me/certificate/07041B99"
-          },
-          {
-            "nome": "Curso: Componentes, Layouts e UI/UX Em Apps Android",
-            "link": "https://www.dio.me/certificate/F12AC30B"
-          },
-          {
-            "nome": "Curso: Java e Kotlin Juntos!? Construindo Apps Android",
-            "link": "https://www.dio.me/certificate/3FB20BF1"
-          },
-          {
-            "nome": "Curso: Explorando o Firebase Para Apps Android Resiliente",
-            "link": "https://www.dio.me/certificate/BA099F34"
-          }
-        ]
-      },
-      {
-        "nome": "Doutorado em Engenharia de Software",
-        "descricao": "Uma Infraestrutura de Apoio ao Ensino e Aprendizagem de Línguas de Sinais",
-        "instituicao": "Universidade de São Paulo (USP)",
-        "periodo": {
-          "inicio": "2018",
-          "fim": "Atualmente"
-        }
-      },
-      {
-        "nome": "Mestrado em Engenharia de Software",
-        "descricao": "Estudo e Definição de Uma Linha de Produtos de Software Para o Desenvolvimento de Aplicações Educacionais Moveis",
-        "instituicao": "Universidade de São Paulo (USP)",
-        "periodo": {
-          "inicio": "2012",
-          "fim": "2015"
-        }
-      },
-      {
-        "nome": "Bacharelado em Engenharia de Computação",
-        "descricao": "",
-        "instituicao": "Universidade de Araraquara (UNIARA)",
-        "periodo": {
-          "inicio": "2007",
-          "fim": "2011"
-        }
-      }
-    ],
     "projetos": [
       {
         "name": "Pokedex Consumindo PokeAPI",
-        "url": "https://github.com/PauloVictordeSouza/Pokedex-project",
+        "url": "https://github.com/PauloVictordSouza/Projeto-Pokedex",
         "github": true
       },
       {
         "name": "Site Meteorologico",
-        "url": "https://github.com/PauloVictordeSouza/Site-Meteorologico",
+        "url": "https://github.com/PauloVictordSouza/Projeto-Site-Meteorologico",
         "github": true
       },
       {
-        "name": "Youtube Clone",
-        "url": "https://github.com/PauloVictordeSouza/Projeto-Jovem-Programador",
+        "name": "Calculadora de IMC",
+        "url": "https://github.com/PauloVictordSouza/Calculadora-De-IMC",
         "github": true
       }
     ],

@@ -57,17 +57,17 @@
 }
 
 .information .people:before{
-    background-image: url('/assets/Icons/Pessoa.svg');
+    background-image: url('assets/Icons/Pessoa.svg');
 }
 
 .information .localizacao:before{
-    background-image: url('/assets/Icons/Localizacao.svg');
+    background-image: url('assets/Icons/Localizacao.svg');
 }
 
 .information .whatsapp::before{
-    background-image: url('/assets/Icons/Whatsapp.svg');
+    background-image: url('assets/Icons/Whatsapp.svg');
 }
 
 .information .email::before{
-    background-image: url('/assets/Icons/Email.svg');
+    background-image: url('assets/Icons/Email.svg');
 }
