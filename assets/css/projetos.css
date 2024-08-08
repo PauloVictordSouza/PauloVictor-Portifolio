@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .projetos{
     margin: 0;
@@ -60,4 +61,68 @@
         word-break: break-all;
         text-decoration: underline;
     }
+=======
+
+.projetos{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    list-style: none;
+}
+
+.projetos li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.projetos li .title{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+
+
+
+.projetos li .title.github::before{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/Icons/github.svg');
+    margin-right: .5rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .projetos li .title.github::before{
+        content: '';
+        display: inline-block;
+        width: 1.5rem;
+        height: 1rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('/assets/Icons/github.svg');
+        margin-right: .5rem;
+    }
+
+    .projetos li a{
+        display: flex;
+        overflow: hidden; 
+        word-break: break-all;
+        text-decoration: underline;
+    }
+>>>>>>> cb3b63b238a22b004c87cbadb63e415d580bf3d5
 }
